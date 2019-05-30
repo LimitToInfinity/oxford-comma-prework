@@ -8,6 +8,6 @@ def oxford_comma(array)
     for name in array[range] do
       result = result + name + separator
     end
-    print result + "and " + array[array.length-1]
+    return result + "and " + array[array.length-1]
   end
 end
